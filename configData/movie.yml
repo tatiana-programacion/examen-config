@@ -6,7 +6,7 @@ spring:
     name: api-movie
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3366/movie-dev?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/movie-dev?createDatabaseIfNotExist=true
     username: usr-movie
     password: pwd-movie
   jpa:
