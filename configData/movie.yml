@@ -6,9 +6,9 @@ spring:
     name: api-movie
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/api-movie?createDatabaseIfNotExist=true
-    username: root
-    password: Dh022023?
+    url: jdbc:mysql://localhost:3366/movie-dev?createDatabaseIfNotExist=true
+    username: usr-movie
+    password: pwd-movie
   jpa:
     database-platform: org.hibernate.dialect.MySQL57Dialect
     hibernate.ddl-auto: update
